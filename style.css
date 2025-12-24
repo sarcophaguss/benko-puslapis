@@ -452,3 +452,36 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ======================================
+   MOBILE OPTIMIZATION
+   ====================================== */
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        padding: 0 15px;
+    }
+
+    .hero {
+        padding-top: 60px;
+    }
+
+    .contact-flex-container {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+
+    .contact-main, .contact-sidebar, .contact-map {
+        grid-column: 1 / 2 !important;
+    }
+
+    .contact-map {
+        height: 300px;
+    }
+}
