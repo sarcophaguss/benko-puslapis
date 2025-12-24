@@ -1,0 +1,177 @@
+ <!DOCTYPE html>
+ <html lang="lt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vairavimo mokykla - Benko</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Images/nauja_grafika_trans_copy.png" alt="Benko Vairavimo Mokykla Logo">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="#apie-mus">Apie mus</a></li>
+                    <li><a href="#kainos">Kainos</a></li>
+                    <li><a href="#registracija">Registracija</a></li>
+                    <li><a href="#kontaktai">Kontaktai</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Jei nori būti geras vairuotojas - ateik į Benko!</h1>
+                <p>AM, A1, A2, A, B, B1 kategorijų kursai su profesionaliais instruktoriais.</p>
+                <a href="#registracija" class="btn">Registruotis</a>
+            </div>
+        </section>
+
+        <section id="apie-mus" class="about-us">
+            <div class="container">
+                <h2>Apie mus</h2>
+                
+                <div class="about-intro">
+                    <p>P. Šemetos vairavimo mokykla organizuoja vairavimo kursus. Kviečiame visus norinčius išmokti vairuoti motociklą (A1, A2 ir A kategorija) ir lengvąjį automobilį (B kategorija). Praradusiems vairuotojo pažymėjimą bei pradedantiesiems vairuotojams pažeidusiems kelių eismo taisykles (KET), organizuojamas papildomas vairuotojų mokymas.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="offers">
+                        <h3>Mes jums siūlome:</h3>
+                        <ul class="offers-list">
+                            <li>Patogų kursų grafiką.</li>
+                            <li>Gerą mokymo ir techninę bazę.</li>
+                            <li>Nuolatinai atnaujinamą mokomąją medžiagą.</li>
+                            <li>Kompiuterių klasę.</li>
+                            <li>Vairavimo mokymo aikštelę.</li>
+                            <li>Pirmosios medicininės pagalbos kursus.</li>
+                            <li>Galimybę už kursus atsiskaityti dalimis.</li>
+                            <li>Galimybę pasirinkti vairavimo instruktorių.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kainos" class="pricing">
+            <div class="container">
+                <h2>Kainoraštis</h2>
+                <div class="pricing-flex-container">
+                    <div class="pricing-image">
+                        <img src="Images/motociklas.jpg" alt="Vairavimo mokyklos automobilis">
+                    </div>
+                    <div class="pricing-grid">
+                        <div class="pricing-card">
+                            <h3>A1, A2, A kategorijos</h3>
+                            <span class="price">300 eur.</span>
+                        </div>
+                        <div class="pricing-card">
+                            <h3>B kategorija</h3>
+                            <span class="price">550 eur.</span>
+                        </div>
+                        <div class="pricing-card">
+                            <h3>Papildomi kursai</h3>
+                            <span class="price">150 eur.</span>
+                        </div>
+                        <div class="pricing-card">
+                            <h3>Vairavimo pamoka</h3>
+                            <span class="price">25 eur.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="registracija" class="registration">
+            <div class="container">
+                <h2>Registracija į kursus</h2>
+                <form action="https://formspree.io/f/xqezoreo" method="POST">
+                    <input type="text" name="vardas" placeholder="Vardas Pavardė" required>
+                    <input type="email" name="pastas" placeholder="El. paštas" required>
+                    <input type="tel" name="telefonas" placeholder="Telefono numeris" required>
+                    <select name="kategorija" required>
+                        <option value="" disabled selected>Pasirinkite kategoriją</option>
+                        <option value="A">A1, A2, A kategorija</option>
+                        <option value="B">B kategorija</option>
+                        <option value="Papildomi">Papildomi kursai</option>
+                    </select>
+                    <textarea name="zinute" placeholder="Jūsų žinutė (nebūtina)" rows="4"></textarea>
+                    <button type="submit" class="btn">Siųsti</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="kontaktai" class="contact">
+            <div class="container">
+                <h2>Kontaktai</h2>
+                <div class="contact-flex-container">
+                    <div class="contact-main">
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <h3>Adresas</h3>
+                                <p>Vaižganto g. 44, Ukmergė</p>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>El. paštas</h3>
+                                <p><a href="mailto:paulius.semeta1@gmail.com" class="phone-link">paulius.semeta1@gmail.com</a></p>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>Vadovas</h3>
+                                <p>Paulius Šemeta<br>
+                                <a href="tel:+37060076882" class="phone-link">+370 600 76882</a></p>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>Vairuotojų mokytojas</h3>
+                                <p>Vytautas Akstinavičius<br>
+                                <a href="tel:+37068787354" class="phone-link">+370 687 87354</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-sidebar">
+                        <div class="details-box">
+                            <h3>Rekvizitai</h3>
+                            <p><strong>UAB BENKO</strong></p>
+                            <p>Įmonės kodas: 183129458</p>
+                            <p>Sąsk nr.: LT297300010146170095</p>
+                            <p>Bankas: Swedbank</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2274.6547144933934!2d24.77571967733446!3d55.25983612260799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e799ca663d47d3%3A0x19626ef9c2876f33!2zVmFpemsZYW50byBnLiA0NCwgMjAxNzcgVWttZXJn66s!5e0!3m2!1slt!2slt!4v1700000000000!5m2!1slt!2slt" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="social-links">
+                    <a href="https://www.facebook.com/mokykla.benko" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+                <p>&copy; 2025 P. Šemetos vairavimo mokykla "Benko". Visos teisės saugomos.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+ </html>
